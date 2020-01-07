@@ -7,7 +7,9 @@ class EyesOnMe extends Component {
         <button
           onFocus={() => console.log("Good!")}
           onBlur={() => console.log("Hey! Eyes on me!")}
-        ></button>
+        >
+          Eyes on me
+        </button>
       </div>
     );
   }
